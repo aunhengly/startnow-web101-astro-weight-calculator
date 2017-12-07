@@ -1,0 +1,36 @@
+<html>
+    <head><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> 
+      <meta charset="utf-8">
+      <title>Astro Weight Calculator</title>
+    </head>
+    <body style="background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/cb/Planets2013.svg)" class="btn btn-lg btn-default">
+      <div class="container">
+      <label style="color:#fff ">Your Weight:
+        <input id="user-weight" style="color:#000" type="text" placeholder="Weight (lbs)" /> </label> 
+      
+      <label style="color:#fff">Select a Planet: 
+        <select id="planets" style="color:#000">
+        </select>
+      </label>
+      <button id="calculate-button">Calculate</button>
+      <p id="output" style="color:#fff"></p>
+      
+      <input id="remove" type='checkbox'/> <label style="color:#fff">Remove Pluto</label>
+      
+      <label style="color:#fff">Add planet's name:
+        <input id="addPlanetName" style="color:#000" type="text" planceholder="new planet's name"/>
+      </label>
+      <label style="color:#fff">It's weight:
+        <input id="addPlanetWeight" style="color:#000" type="number" planceholder="new planet's weight"/>
+      </label>
+      <button id="addPlanet-button">Add New Planet</button>
+        
+      <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+      crossorigin="anonymous"></script>
+      <script src="main.js" charset="utf-8"></script>
+    </div>
+    </body>
+  
+  </html>  
